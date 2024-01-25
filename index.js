@@ -11,6 +11,12 @@ const MongoStore = require('connect-mongo');
 const app = express();
 const port = 5000 || process.env.PORT;
 
+const router = express.Router();
+const mainController = require('../controllers/mainController');
+
+router.get('/', mainController.homepage);
+router.get('/about', mainController.about);
+
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
