@@ -30,7 +30,7 @@ app.use(methodOverride("_method"));
 connectDB();
 
 
-app.use(express.static('public'));
+app.use(express.static('./public'));
 
 
 app.use(expressLayouts);
