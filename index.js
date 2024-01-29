@@ -12,7 +12,7 @@ const app = express();
 const port = 5000 || process.env.PORT;
 
 const router = express.Router();
-const mainController = require('../controllers/mainController');
+const mainController = require('./server/controllers/mainController');
 
 router.get('/', mainController.homepage);
 router.get('/about', mainController.about);
