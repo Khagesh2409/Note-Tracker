@@ -80,14 +80,14 @@ h6 {
     background:
       url('../img/human-1.svg') left bottom no-repeat,
       url('../img/human-2.svg') right bottom no-repeat,
-      url('../img/noise-bg.svg') left top repeat,
+      /* url('../img/noise-bg.svg') left top repeat, */
       var(--background-color);
     ;
   }
 }
 
 .home-title::before {
-  content: url('../img/stars.svg');
+  /* content: url('../img/stars.svg'); */
   position: absolute;
   left: -5px;
   top: -10px;
