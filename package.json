@@ -2,7 +2,7 @@
   "name": "notetracker",
   "version": "1.0.0",
   "description": "a notes application with flexibility to perform crud operations.",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "20.x"
   },
